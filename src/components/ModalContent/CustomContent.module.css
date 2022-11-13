@@ -1,0 +1,54 @@
+.main{
+	padding: 25px;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.main h2{
+	font-size: 24px;
+	flex: 0 0 50px;
+}
+
+.input{
+	font-size: 20px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid rgba(128, 128, 128, 0.25);
+	padding-bottom: 15px;
+}
+.input input{
+	border: 1px solid black;
+	font-size: 20px;
+	padding: 3px;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+
+
+.actions{
+	display: flex;
+}
+
+.actions div{
+	flex: 0 0 50%;
+}
+
+.inputs{
+	border: 1px solid rgba(128, 128, 128, 0.25);
+}
+
+.radio{
+	padding: 15px;
+}
+
+.radio label{
+	margin-right: 10px;
+}
+
+.buttons{
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	
+}
